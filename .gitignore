@@ -1,0 +1,56 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Notebook outputs / checkpoints
+*.nbconvert.ipynb
+checkpoint/
+checkpoints/
+outputs/
+runs/
+
+# Fine-tuned model files
+epoch-finetuned/
+final_model/
+model/
+models/
+adapter/
+adapters/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.gguf
+
+# Hugging Face / training cache
+.cache/
+huggingface/
+.huggingface/
+wandb/
+mlruns/
+
+# Secrets / API keys
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+token.json
+secrets.json
+
+# Large datasets - optional
+# Uncomment these if you do NOT want to upload datasets
+# *.json
+# data/
+# datasets/
+
+# OS files
+.DS_Store
+Thumbs.db
