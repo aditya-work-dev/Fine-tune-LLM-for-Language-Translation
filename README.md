@@ -234,29 +234,6 @@ Or run it in Google Colab with a GPU runtime.
 
 ---
 
-## Files Not to Commit
-
-Do not commit model checkpoints, API keys, or large generated training artifacts.
-
-Recommended `.gitignore`:
-
-```gitignore
-.env
-__pycache__/
-.ipynb_checkpoints/
-
-epoch-finetuned/
-checkpoint-*/
-model_zip.zip
-*.safetensors
-*.pt
-*.bin
-
-logs/
-wandb/
-```
-
----
 
 ## What I Learned
 
